@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+.pnpm-debug.log*
+
+# K6 outputs e relatórios
+*.json
+*.html
+report/
+report.*
+results/
+output/
+*.tmp
+
+# Arquivos específicos de K6
+report.json
+k6-report.json
+
+# Arquivos de log
+*.log
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Diretórios do sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp

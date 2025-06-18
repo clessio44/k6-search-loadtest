@@ -1,0 +1,14 @@
+{
+  "name": "k6-tests",
+  "version": "1.0.0",
+  "description": "Testes de performance com K6 para API de hotéis",
+  "scripts": {
+    "test:k6": "k6 run stress.js",
+    "test:k6:json": "k6 run stress.js --out json=report.json"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
